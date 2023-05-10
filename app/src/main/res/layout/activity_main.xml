@@ -1,0 +1,315 @@
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/background">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colotSecondaryDark"
+        android:padding="5dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="45dp"
+            app:title="Cat Sound"
+            app:titleTextAppearance="@style/Toolbar.TitleText"
+            app:titleTextColor="@color/textAccent" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_margin="5dp">
+
+                <ImageButton
+                    android:id="@+id/imageButton1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/cat1"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"/>
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Cat 1"
+                    android:layout_alignBottom="@id/imageButton1"
+                    android:textSize="11pt"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_margin="5dp">
+
+                <ImageButton
+                    android:id="@+id/imageButton2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/cat2"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"/>
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Cat 2"
+                    android:layout_alignBottom="@id/imageButton2"
+                    android:textSize="11pt"
+                    android:paddingLeft="10dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"
+                    tools:ignore="DuplicateIds" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cat3"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"/>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Cat 3"
+                android:layout_alignBottom="@id/imageButton3"
+                android:textSize="11pt"
+                android:paddingLeft="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                tools:ignore="DuplicateIds"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cat4"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"/>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Cat 4"
+                android:layout_alignBottom="@id/imageButton4"
+                android:textSize="11pt"
+                android:paddingLeft="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                tools:ignore="DuplicateIds" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cat5"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"/>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Cat 5"
+                android:layout_alignBottom="@id/imageButton5"
+                android:textSize="11pt"
+                android:paddingLeft="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                tools:ignore="DuplicateIds"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cat6"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"/>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Cat 6"
+                android:layout_alignBottom="@id/imageButton6"
+                android:textSize="11pt"
+                android:paddingLeft="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                tools:ignore="DuplicateIds" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
+
+            <ImageButton
+                android:id="@+id/imageButton7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cat7"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"/>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Cat 7"
+                android:layout_alignBottom="@id/imageButton7"
+                android:textSize="11pt"
+                android:paddingLeft="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                tools:ignore="DuplicateIds"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
+
+            <ImageButton
+                android:id="@+id/imageButton8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cat9"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"/>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Cat 8"
+                android:layout_alignBottom="@id/imageButton8"
+                android:textSize="11pt"
+                android:paddingLeft="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                tools:ignore="DuplicateIds" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
